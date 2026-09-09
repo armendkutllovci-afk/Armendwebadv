@@ -1,0 +1,46 @@
+ul{
+    list-style-type: none;
+     padding: o;
+     border: 2px solid grey;
+}
+
+ul li{
+      padding: 8px 16px;
+      border-bottom: 1px solid grey;
+}
+ 
+ol{
+    background: white;
+    padding: 15px;
+}
+
+ol li{
+      background: white;
+      padding: 10px;
+      margin-left: 30px;
+}
+
+table{
+      border-collapse: collapse;
+}
+
+td, th{
+       border: 1px solid white;
+       padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+      background-color: pink;
+}
+
+tbody tr:nth-child(even){
+      background-color: rgb(150, 65, 136);
+}
+
+div{
+    overflow: scroll;
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+}
+
